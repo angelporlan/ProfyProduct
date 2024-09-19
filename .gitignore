@@ -1,0 +1,33 @@
+# Ignorar dependencias de Symfony en backend
+/backend/vendor/
+/backend/var/
+/backend/.env
+/backend/.env.local
+/backend/.env.*.local
+/backend/phpunit.xml
+/backend/phpunit.xml.dist
+/backend/public/bundles/
+/backend/public/build/
+/backend/node_modules/
+
+# Ignorar dependencias de Angular en frontend
+/frontend/node_modules/
+/frontend/dist/
+/frontend/out-tsc/
+/frontend/coverage/
+/frontend/src/environments/environment*.ts
+
+# IDEs y entornos de desarrollo
+/.idea/
+/.vscode/
+
+# Archivos temporales del sistema
+.DS_Store
+
+# npm y yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cachés de Angular
+/frontend/.angular/
